@@ -90,6 +90,7 @@ void addbook(){
     books.push_back(newbook);
     cout << endl;
     cout << newbook.title << " has been added on the book list" << endl;
+    system("PAUSE");
 }
 
 void viewbook(){
@@ -119,6 +120,7 @@ void viewbook(){
         cout << "Date Started Reading: " << books[selection - 1].startdate << " | " << "Target End Reading: " << books[selection - 1].enddate << endl;
         cout << "Overview: " << books[selection - 1].overview << endl;
     }
+    system("PAUSE");
 }
 
 void viewbook2(){
@@ -173,6 +175,7 @@ void updatebook(){
         cout << "Invalid Input" << endl;
         return;
     }
+    system("PAUSE");
 }
 
 void deletebook() {
